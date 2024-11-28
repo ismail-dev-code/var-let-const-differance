@@ -8,8 +8,11 @@ console.log(arrayMax);
 // use spread operator to copy a object or array 
 const friends = [2, 4, 34, 3];
 const bondhu = friends;
-const dosto = [...friends]
+const dosto = [...friends] //copy
 console.log(dosto);
 friends.push(100);
 console.log(friends);
 console.log(dosto);
+// advance 
+const sonkha = [...friends, 9000] //add extra element while copy
+console.log(sonkha);
